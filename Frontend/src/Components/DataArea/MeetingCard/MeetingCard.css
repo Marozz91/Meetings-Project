@@ -1,0 +1,75 @@
+.card5 {
+    width: 25rem;
+    height: 23rem;
+    background-color: #e3d5ca;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    position: relative;
+    overflow: hidden;
+}
+
+.card5:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, #8f7eff, #44a4ff);
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.card5:hover:before {
+    opacity: 0.5;
+}
+
+.card5-content {
+    width: 23rem;
+    height: 300px;
+    padding: 0 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -45%);
+    padding: .8rem;
+    color: rgb(0, 0, 0);
+    z-index: 1;
+    background-color: whitesmoke;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-radius: .3rem;
+    overflow-y: auto;
+    display: flex;
+    gap: 1rem;
+}
+
+.card5-content p {
+    margin: 0;
+}
+
+.card5-content span {
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+.card5:hover .card5-content {
+    transform: translate(-50%, -50%);
+}
+
+.MeetingCard span {
+
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    top: 5px;
+    right: 5px;
+
+}
+
+.MeetingCard:hover span {
+
+    display: inline;
+}

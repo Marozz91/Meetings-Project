@@ -1,0 +1,23 @@
+.Home {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.Home>img {
+    width: 60%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 7px 5px rgba(207, 173, 181, 0.719);
+    margin: auto;
+    object-fit: contain;
+    margin-top: 1rem;
+}
+
+.Home>p {
+    font-weight: 600;
+    font-size: 1.65rem;
+    margin: auto;
+    padding-bottom: 1rem;
+    color: #219ebc;
+
+}

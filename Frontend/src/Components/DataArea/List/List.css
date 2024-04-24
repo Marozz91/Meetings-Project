@@ -1,0 +1,22 @@
+.select-wrap {
+    text-align: center;
+    margin-bottom: 1.25rem;
+}
+
+.select-wrap select {
+    padding: .3rem 1.25rem;
+    font-size: large;
+    color: #219ebc;
+    border-color: #219ebc;
+
+}
+
+
+.divCard {
+
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 80rem;
+    gap: 1rem;
+}
